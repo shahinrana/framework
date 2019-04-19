@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jobseeker">
+	<listeners>
+		<listener class-name="TSC_Framework_Listener.Listener"></listener>
+	</listeners>
+	<suite-files>
+		<suite-file path="JobSeeker_TestCase.xml"></suite-file>
+		<suite-file path="Employee_TestCase.xml"></suite-file>
+		<suite-file path="ServiceProvider_Testcase.xml"></suite-file>
+		<suite-file path="University_TestCase.xml"></suite-file>	
+	</suite-files>
+</suite> <!-- Suite -->
+
+

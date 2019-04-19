@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (4)]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TSC_Framework_JobSeeker.JobSeekerProfileEdit">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="JobSeekerMyServiceProvider"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_JobSeeker.JobSeekerProfileEdit -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (4)] -->

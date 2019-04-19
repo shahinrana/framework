@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (0)]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="employee(failed)">
+    <classes>
+      <class name="TSC_Framework_AllTestCase.Employee_TestCase">
+        <methods>
+          <include name="EmpLoginandsearchforJobseeker"/>
+          <include name="EmpLoginJobsupportingfileupload"/>
+          <include name="endTest"/>
+          <include name="View_UploadJob_Edit_close"/>
+          <include name="EmpLoginandOtherSearch"/>
+          <include name="EmpprofileviewJobs"/>
+          <include name="Logout"/>
+          <include name="browser"/>
+          <include name="ViewOpenJob_Remove"/>
+          <include name="LoadProperties"/>
+        </methods>
+      </class> <!-- TSC_Framework_AllTestCase.Employee_TestCase -->
+      <class name="TSC_Framework_Employer.Employeerregistaration">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.Employeerregistaration -->
+    </classes>
+  </test> <!-- employee(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

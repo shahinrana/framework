@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="University">
+	<listeners>
+		<listener class-name="TSC_Framework_Listener.Listener"></listener>
+	</listeners>
+	<test name="UNiversity Reg">
+		<classes>
+			<class name="TSC.TSC_Framework_University.university_Reg"></class>
+		</classes>
+	</test>
+	<test name="UNiversity login">
+		<classes>
+			<class name="TSC.TSC_Framework_University.university_Login"></class>
+		</classes>
+	</test>
+	<test name="UNiversityjobsearch">
+		<classes>
+			<class name="TSC.TSC_Framework_University.University_JobSerach"></class>
+		</classes>
+	</test>
+	<test name="UNiversity Managebranch">
+		<classes>
+			<class name="TSC.TSC_Framework_University.university_ManageBranches"></class>
+		</classes>
+	</test>
+	<test name="UNiversity ManageEmployee">
+		<classes>
+			<class name="TSC.TSC_Framework_University.university_ManageEmployee"></class>
+		</classes>
+	</test>
+	<test name="UNiversity othersearch">
+		<classes>
+			<class name="TSC.TSC_Framework_University.University_OtherSearch"></class>
+		</classes>
+	</test>
+	<test name="UNiversity AddmyStudent">
+		<classes>
+			<class name="TSC.TSC_Framework_University.university_AddMystudent"></class>
+		</classes>
+	</test>
+
+</suite>

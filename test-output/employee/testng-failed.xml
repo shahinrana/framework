@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [employee]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="Employe profile(failed)">
+    <classes>
+      <class name="TSC_Framework_Employer.EmployeeProfile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="EmpprofileEditUpdate"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.EmployeeProfile -->
+      <class name="TSC_Framework_Employer.Employeeothersearch">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.Employeeothersearch -->
+      <class name="TSC_Framework_Employer.EmployeeLogin">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.EmployeeLogin -->
+      <class name="TSC_Framework_Employer.EmployeeJobsupportingFileUpload">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="browser"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.EmployeeJobsupportingFileUpload -->
+      <class name="TSC_Framework_Employer.Employeerregistaration">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.Employeerregistaration -->
+      <class name="TSC_Framework_Employer.EmployeePostJob">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="browser"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.EmployeePostJob -->
+    </classes>
+  </test> <!-- Employe profile(failed) -->
+</suite> <!-- Failed suite [employee] -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [University]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="University Suite(failed)">
+    <classes>
+      <class name="TSC.TSC_Framework_University.University_JobSerach">
+        <methods>
+          <include name="university_jobSearch"/>
+          <include name="browser"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_University.University_JobSerach -->
+      <class name="TSC.TSC_Framework_University.university_ManageEmployee">
+        <methods>
+          <include name="endTest"/>
+          <include name="browser"/>
+          <include name="ManageEmployee"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_University.university_ManageEmployee -->
+      <class name="TSC.TSC_Framework_University.university_Login">
+        <methods>
+          <include name="browser"/>
+          <include name="universityLogin_MyAccount"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_University.university_Login -->
+      <class name="TSC.TSC_Framework_University.university_Reg">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="universityRegistration"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_University.university_Reg -->
+      <class name="TSC.TSC_Framework_University.university_AddMystudent">
+        <methods>
+          <include name="endTest"/>
+          <include name="universityAddMyStudnt"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_University.university_AddMystudent -->
+      <class name="TSC.TSC_Framework_University.university_ManageBranches">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="browser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="ManageBranches"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_University.university_ManageBranches -->
+    </classes>
+  </test> <!-- University Suite(failed) -->
+</suite> <!-- Failed suite [University] -->

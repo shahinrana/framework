@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Jobseeker]" parallel="methods">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="Jobseeker profileEdit(failed)" parallel="methods">
+    <classes>
+      <class name="TSC_Framework_JobSeeker.jobseekerInvitee">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="browser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TSC_Framework_JobSeeker.jobseekerInvitee -->
+      <class name="TSC_Framework_JobSeeker.JobSeekerProfileEdit">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="JobSeekerBasicInforamtion"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_JobSeeker.JobSeekerProfileEdit -->
+      <class name="TSC_Framework_JobSeeker.JobSeekerMyProfile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_JobSeeker.JobSeekerMyProfile -->
+      <class name="TSC_Framework_JobSeeker.JobSeekerForgotPassword">
+        <methods>
+          <include name="browser"/>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TSC_Framework_JobSeeker.JobSeekerForgotPassword -->
+      <class name="TSC_Framework_JobSeeker.Jobseekerlogin">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_JobSeeker.Jobseekerlogin -->
+    </classes>
+  </test> <!-- Jobseeker profileEdit(failed) -->
+</suite> <!-- Failed suite [Jobseeker] -->

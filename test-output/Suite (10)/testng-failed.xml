@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (10)]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.ListenerDemo"/>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TSC.TSC_Framework_ServiceProvider.serviceproviderlogin">
+        <methods>
+          <include name="LoginWithEmailFieldBlank"/>
+          <include name="endTest"/>
+          <include name="LoginWithPasswordFieldBlank"/>
+          <include name="LoginWithValidEmailIdAndPassword"/>
+          <include name="LoginWithInvalidIdAndPassword"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_ServiceProvider.serviceproviderlogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (10)] -->

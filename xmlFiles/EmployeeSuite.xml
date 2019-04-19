@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="employee">
+	<listeners>
+		<listener class-name="TSC_Framework_Listener.Listener"></listener>
+	</listeners>
+
+	<test name="Employe Registration">
+		<classes>
+			<class name="TSC_Framework_Employer.Employeerregistaration"></class>
+		</classes>
+	</test>
+	<test name="Employe login">
+		<classes>
+			<class name="TSC_Framework_Employer.EmployeeLogin"></class>
+		</classes>
+	</test>
+	<test name="Employe othersearch">
+		<classes>
+			<class name="TSC_Framework_Employer.Employeeothersearch"></class>
+		</classes>
+	</test>
+	<test name="Employe postjob">
+		<classes>
+			<class name="TSC_Framework_Employer.EmployeePostJob"></class>
+		</classes>
+	</test>
+
+	<test name="Employe profile">
+		<classes>
+			<class name="TSC_Framework_Employer.EmployeeProfile"></class>
+		</classes>
+	</test>
+
+	<test name="Employe jobsupportingfileupload">
+		<classes>
+			<class name="TSC_Framework_Employer.EmployeeJobsupportingFileUpload"></class>
+		</classes>
+	</test>
+</suite>

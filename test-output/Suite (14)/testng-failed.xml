@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (14)]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TSC.TSC_Framework_ServiceProvider.ServiceProviderManageBranches">
+        <methods>
+          <include name="ManageBranches"/>
+          <include name="afterMethod"/>
+          <include name="closebrowser"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC.TSC_Framework_ServiceProvider.ServiceProviderManageBranches -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (14)] -->

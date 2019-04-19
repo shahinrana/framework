@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jobseeker">
+	<listeners>
+		<listener class-name="TSC_Framework_Listener.Listener"></listener>
+	</listeners>
+	<suite-files>
+		<suite-file path="JobSeekerRegestrn.xml"></suite-file>
+		<suite-file path="JobSeekerLogin.xml"></suite-file>
+		<suite-file path="JobSeekerForgotPassword.xml"></suite-file>
+		<suite-file path="JobSeekerMyInvitee.xml"></suite-file>
+		<suite-file path="JobseekerMyprofile.xml"></suite-file>
+		<suite-file path="JobseekerProfileEdit.xml"></suite-file>
+		<suite-file path="Employelogin.xml"></suite-file>
+		<suite-file path="employeeLoginwithvaldn .xml"></suite-file>
+		<suite-file path="EmployeOthersearch.xml"></suite-file>
+		<suite-file path="EmployeePostJob .xml"></suite-file>
+		<suite-file path="EmployeeJobsupportingFileUpload.xml"></suite-file>
+		<suite-file path="serviceproviderReg .xml"></suite-file>
+		<suite-file path="Serviceprovidelogin.xml"></suite-file>
+		<suite-file path="serviceprovideraddmyclient.xml"></suite-file>
+		<suite-file path="ServiceproviderJobSeeker.xml"></suite-file>
+		<suite-file path="serviceprovidermyinvitee.xml"></suite-file>
+		<suite-file path="serviceprovidemngBranches.xml"></suite-file>
+		<suite-file path="serviceprovidermangeEmp.xml"></suite-file>
+		<suite-file path="serviceproviderprofile_OtherSearch.xml"></suite-file>
+		<suite-file path="university_Reg.xml"></suite-file>
+		<suite-file path="universityLogin.xml"></suite-file>
+		<suite-file path="university_AddMystudent.xml"></suite-file>
+		<suite-file path="university_ManageBranches.xml"></suite-file>
+		<suite-file path="university_ManageEmployee.xml"></suite-file>
+		<suite-file path="University_JobSerach.xml"></suite-file>
+	</suite-files>
+</suite> <!-- Suite -->

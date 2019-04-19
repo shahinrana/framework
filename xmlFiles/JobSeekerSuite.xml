@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jobseeker" parallel="true" thread-count="3">
+<!-- <suite name="Jobseeker"> -->
+	<listeners>
+		<listener class-name="TSC_Framework_Listener.Listener"></listener>
+	</listeners>
+	<test name="Jobseeker suite" enabled="true" preserve-order="false">
+	<!-- <test name="Jobseeker suite"> -->
+		<classes>
+			<class name="TSC_Framework_JobSeeker.Jobseekerlogin"></class>
+		</classes>
+	</test>
+	<test name="Jobseeker profile">
+		<classes>
+			<class name="TSC_Framework_JobSeeker.JobSeekerMyProfile"></class>
+		</classes>
+	</test>
+	<test name="Jobseeker forgotpwd">
+		<classes>
+			<class name="TSC_Framework_JobSeeker.JobSeekerForgotPassword"></class>
+		</classes>
+	</test>
+	<test name="Jobseeker invitee">
+		<classes>
+			<class name="TSC_Framework_JobSeeker.jobseekerInvitee"></class>
+		</classes>
+	</test>
+	<test name="Jobseeker profileEdit">
+		<classes>
+			<class name="TSC_Framework_JobSeeker.JobSeekerProfileEdit"></class>
+		</classes>
+	</test>
+</suite> 

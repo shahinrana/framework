@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="TSC_Framework_Listener.Listener"></listener>
+	</listeners>
+	
+	<test name="Register" enabled="true">
+    <classes>
+      <class name="TSC_Framework_JobSeeker.JobseekerRegistration"/> 
+    </classes>
+  </test>
+  <test name="ForgotPassword" enabled="true">
+    <classes>
+      <class name="TSC_Framework_JobSeeker.JobSeekerForgotPassword"/>
+    </classes>
+  </test>
+  <test name="Jobseeker_Testcase" enabled="true">
+    <classes>
+      <class name="TSC_Framework_AllTestCase.JobSeeker_TestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

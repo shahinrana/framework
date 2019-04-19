@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (2)]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TSC_Framework_AllTestCase.University_TestCase">
+        <methods>
+          <include name="Logout"/>
+          <include name="browser"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="LoadProperties"/>
+        </methods>
+      </class> <!-- TSC_Framework_AllTestCase.University_TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (2)] -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="serviceprovider">
+	<listeners>
+		<listener class-name="TSC_Framework_Listener.Listener"></listener>
+	</listeners>
+
+	<test name="ServiceProvider login">
+		<classes>
+			<class name="TSC.TSC_Framework_ServiceProvider.serviceproviderlogin"></class>
+		</classes>
+	</test>
+	<test name="ServiceProvider Jobseeker">
+		<classes>
+			<class name="TSC.TSC_Framework_ServiceProvider.ServiceproviderJobSeeker"></class>
+		</classes>
+	</test>
+	<test name="ServiceProvider Addmyclient">
+		<classes>
+			<class
+				name="TSC.TSC_Framework_ServiceProvider.ServiceproviderAddMyclientClient"></class>
+		</classes>
+	</test>
+	<test name="ServiceProvider manage branches">
+		<classes>
+			<class name="TSC.TSC_Framework_ServiceProvider.ServiceProviderManageBranches"></class>
+		</classes>
+	</test>
+	<test name="ServiceProvider manageemployee">
+		<classes>
+			<class name="TSC.TSC_Framework_ServiceProvider.ServiceProviderManageemployees"></class>
+		</classes>
+	</test>
+	<test name="ServiceProvider myinvitee">
+		<classes>
+			<class name="TSC.TSC_Framework_ServiceProvider.serviceproviderMyInvitee"></class>
+		</classes>
+	</test>
+	<test name="ServiceProvider othersearch">
+		<classes>
+			<class
+				name="TSC.TSC_Framework_ServiceProvider.serviceproviderprofile_OtherSearch"></class>
+		</classes>
+	</test>
+</suite>
+ 

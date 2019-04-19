@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TSC_Framework_Listener.Listener"/>
+  </listeners>
+  <test name="forgotpassword(failed)">
+    <classes>
+      <class name="TSC_Framework_AllTestCase.Employee_TestCase">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+          <include name="LoadProperties"/>
+        </methods>
+      </class> <!-- TSC_Framework_AllTestCase.Employee_TestCase -->
+      <class name="TSC_Framework_Employer.Employee_Forgotpassword">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+          <include name="Empforgotpassword"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.Employee_Forgotpassword -->
+      <class name="TSC_Framework_Employer.Employeerregistaration">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- TSC_Framework_Employer.Employeerregistaration -->
+    </classes>
+  </test> <!-- forgotpassword(failed) -->
+</suite> <!-- Failed suite [Suite] -->
